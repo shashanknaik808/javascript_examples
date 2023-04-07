@@ -28,3 +28,14 @@ let value = marks.indexOf(73);
 let marks2 = [1, 2, 3, 7]
 marks = marks.concat(marks2);
 // console.log(marks);
+
+let myobj = {
+    'first name': 'shashank',
+    channel: 'Code',
+    isActive: true,
+    marks: [1,5,3,6]
+}
+
+console.log(myobj)
+console.log(myobj['channel'])
+console.log(myobj.channel)

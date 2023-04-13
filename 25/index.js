@@ -18,3 +18,17 @@ else{
     text = document.createTextNode(val);
 }
 divElm.appendChild(text);
+
+// Give element id, style and class
+divElm.setAttribute('id', 'elm');
+divElm.setAttribute('class', 'elm');
+divElm.setAttribute('style', 'border:2px solid black; width: 154px; margin: 34px; padding:23px;');
+
+// Grab the main container
+let container = document.querySelector('.container');
+let first = document.getElementById('myfirst');
+
+// Insert the element before element with id first
+container.insertBefore(divElm, first);
+
+console.log(divElm, container, first);

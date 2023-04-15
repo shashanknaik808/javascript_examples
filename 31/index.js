@@ -35,4 +35,16 @@ class Programmer extends Employee {
             return 'JavaScript';
         }
     }
+
+    static multiply(a, b){
+        return a * b;
+    }
 }
+
+// harry = new Employee("Harry", 56, "Division");
+// console.log(harry.joiningYear());
+// console.log(Employee.add(34, 5))
+rohan = new Programmer("Rohan", 3, "Lays", "Go", "Rohan420")
+console.log(rohan)
+console.log(rohan.favouriteLanguage())
+console.log(Programmer.multiply(5, 7));

@@ -74,3 +74,89 @@ else {
     console.log(rou);
 }
 */
+
+/*
+// Create and use varibles
+var myName = 'Balaji';
+var myAge = 35;
+
+console.log(myName);  //Balaji
+console.log(myAge); //35
+console.log('My name is ' + myName + ' & my age is ' + myAge);
+// My name is Balaji & my age is 35
+*/
+
+/*
+// Local varibles
+let myName = "Kishan";
+let age = 3;
+
+console.log(myName);
+console.log(age);
+console.log('My name is ' + myName + ' & my age is ' + age);
+*/
+
+/*
+let myWife = "Suma";
+let age = 30;
+
+console.log(myWife);
+console.log(age);
+console.log('My wife name is ' + myWife + ' & her age is ' + age);
+*/
+
+//The operator has 2 operands and it is called Binary operator
+// var a = 5 + 6; var b = 7 - 4; var c = a * b;
+
+// Operator has 3 operands , then it is Ternary operator 
+// var c = (condition) ? 55 : 65;
+
+/*
+// Operator has only 1 operands , then it is Unary operator
+var num = 55; // Assignment Operators
+
+num += 10; // 65 | Equivalent: num = num + 10;
+num -= 20; // 45 | Equivalent: num = num - 20;
+num *= 100; // 4500 | Equivalent: num = num * 100;
+num /= 50; // 90 | Equivalent: num = num / 50;
+num %= 4; // 2 | Equivalent: num = num % 4;
+*/
+
+/*
+// Increment and decrement operator
+let year = 1987;
+year++;
+console.log(year); //1988
+year--;
+year--;
+year--;
+console.log(year); //1985
+*/
+
+/*
+// String Concatenation vs Interpolation
+let myName = 'Balaji';
+let age = 35;
+
+console.log('My name is ' + myName + ' & my age is ' + age);
+
+console.log(`My name is ${myName} & my age is : ${age}`);
+*/
+
+/*
+// typeof keyword
+// used to know type of the varibles
+// not strictly type checked
+// any type of value can fit 
+let foo = 'Super Man';
+console.log(typeof foo);  //string
+
+foo = 1985;
+console.log(typeof foo); //number
+
+foo = 55.68;
+console.log(typeof foo); //number
+
+foo = 100 > 200;
+console.log(typeof foo); //boolean
+*/

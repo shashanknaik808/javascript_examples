@@ -222,6 +222,28 @@ console.log(fru);
 */
 
 
+//Assignment
+//sort()
+/*
+const num = [45, 250, 35, 1500, 650, 125];
 
+num.sort((a, b) => {
+    return a - b;
+})
+console.log(num);
+*/
 
+let fruits = ['mango', 'Grapefruit', 'apple', 'dragon-fruit', 'Banana', 'Muskmelon', 'kiwi', 'grapes'];
 
+fruits.sort((a, b) => {
+    if (a.toLowerCase() < b.toUpperCase()) {
+        return -1;
+    }
+    else if (a.toLowerCase() > b.toUpperCase()) {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+});
+console.log(fruits);

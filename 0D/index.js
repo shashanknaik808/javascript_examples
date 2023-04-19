@@ -83,3 +83,145 @@ fruitSalad.forEach(fruit => {
     console.log(`10 gms of ${fruit}`);
 });
 */
+
+
+// 5. Map function
+// forEach() pops out an element of an array & operates it
+//map() works in the same way, but it returns a new array with added logic
+/*
+// Aam Zindagi
+const numbers = [1, 2, 3, 5, 7];
+
+const logic = function (num) {
+    return num * num;
+}
+const squares = numbers.map(logic);
+
+console.log(squares);
+*/
+
+/*
+// Mentos Zindagi
+const numbers = [1, 2, 3, 5, 7];
+
+const squares = numbers.map(function (num) {
+    return num * num;
+});
+console.log(squares);
+*/
+
+/*
+// Mentos Zindagi with Arrow function
+const numbers = [1, 2, 3, 5, 7];
+
+const squares = numbers.map(num => {
+    return num * num;
+});
+console.log(squares);
+*/
+
+/*
+// Mentos Zindagi with Arrow function with twist
+const numbers = [1, 2, 3, 5, 7];
+
+// const squares = numbers.map(num => {
+//     return num * num;
+// });
+const squares = numbers.map(num => num * num)
+console.log(squares);
+*/
+
+/*
+const fruitSalad = ['apple', 'pineapple', 'banana', 'orange', 'kiwi', 'custard'];
+
+let salad = fruitSalad.map(fruit => {
+    return`10 gms of ${fruit}`
+});
+console.log(salad);
+*/
+
+// Filter Method
+// Returns a new array after filtering elelments from array
+// filter() returns an array of elements after filtering out certain elements
+// callback fun (logic method) for filter() should return true or false
+/*
+// Aam Zindagi
+const mixedArray = ['apple', 'banana', 5.8, 8, 'kiwi', '3.147', 9.5, '25'];
+
+const logic = function (item) {
+    if (typeof item == 'number') {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+const num = mixedArray.filter(logic);
+console.log(num);
+*/
+
+/*
+// Mentos Zindagi
+const mixedArray = ['apple', 'banana', 5.8, 8, 'kiwi', '3.147', 9.5, '25'];
+ 
+const num = mixedArray.filter(function (item) {
+    if (typeof item == 'number') {
+        return true;
+    }
+    else {
+        return false;
+    }
+});
+console.log(num);
+*/
+
+/*
+// Mentos Zindagi with arrow fun
+const mixedArray = ['apple', 'banana', 5.8, 8, 'kiwi', '3.147', 9.5, '25'];
+ 
+const num = mixedArray.filter(item => {
+    if (typeof item == 'number') {
+        return true;
+    }
+    else {
+        return false;
+    }
+});
+console.log(num);
+*/
+/*
+// Mentos Zindagi with twist
+const mixedArray = ['apple', 'banana', 5.8, 8, 'kiwi', '3.147', 9.5, '25'];
+ 
+const num = mixedArray.filter((item) => {
+   return (typeof item == 'number') ? true : false;
+});
+console.log(num);
+*/
+
+/*
+//Mentos with namak
+const mixedArray = ['apple', 'banana', 5.8, 8, 'kiwi', '3.147', 9.5, '25'];
+
+const num = mixedArray.filter(item => (typeof item == 'number') ? true : false);
+console.log(num);
+*/
+
+// Find Index Method
+// findIndex() retrieves index of 1st element of array which matches with true condition in logic.
+/*
+const fruits = ['apple', 'pineapple', 'banana', 'orange', 'dragon-fruit', 'kiwi', 'custard'];
+
+let fruitNum = fruits.findIndex((fruit) => {
+    return fruit === 'orange'
+});
+console.log(fruitNum);
+
+let fru = fruits.findIndex(fruit => fruit[3] === 'e');
+console.log(fru);
+*/
+
+
+
+
+

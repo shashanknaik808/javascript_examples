@@ -233,6 +233,7 @@ num.sort((a, b) => {
 console.log(num);
 */
 
+/*
 let fruits = ['mango', 'Grapefruit', 'apple', 'dragon-fruit', 'Banana', 'Muskmelon', 'kiwi', 'grapes'];
 
 fruits.sort((a, b) => {
@@ -247,3 +248,22 @@ fruits.sort((a, b) => {
     }
 });
 console.log(fruits);
+*/
+
+
+// reduce
+/*
+let num = [1, 2, 3, 4, 5];
+
+let out = num.reduce((acc, curr) => curr + acc, 100);
+
+console.log(out);
+*/
+/*
+let fruits = ['apple', 'banana', 'chikku', 'kiwi'];
+
+console.log(fruits.reduce((acc, crr) => acc + " " + crr, "Welcome"));
+*/
+
+
+
